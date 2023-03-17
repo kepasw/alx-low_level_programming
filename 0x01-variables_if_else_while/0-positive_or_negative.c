@@ -15,11 +15,11 @@ if (n > 0)
 {
 	printf("The number is a positive\n");
 }
-if (n == 0)
+else if (n == 0)
 {
 	printf("The number is 0\n");
 }
-if (n < 0)
+else
 {
 	printf("The number is negative\n");
 }
